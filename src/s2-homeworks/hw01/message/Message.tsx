@@ -3,7 +3,7 @@ import s from './Message.module.css'
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = any
-
+// {message : MessageType} и тогда айди будет работать 
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
     return (
