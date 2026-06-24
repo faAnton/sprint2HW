@@ -10,9 +10,17 @@
 .name {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 10px 14px;
+
+    text-transform: capitalize;
     width: 145px;
     height: 37px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
 }
 
 .closeButton {
