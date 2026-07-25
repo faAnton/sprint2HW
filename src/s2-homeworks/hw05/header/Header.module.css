@@ -1,6 +1,14 @@
 .burgerMenuIcon {
-
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
 }
+
+.burgerMenuIcon:hover{
+    transform: scale(1.1);
+}
+
 
 .header {
     width: 100%;
