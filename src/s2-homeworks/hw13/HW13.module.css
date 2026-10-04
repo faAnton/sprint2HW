@@ -1,22 +1,43 @@
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
 }
 
 .responseContainer {
+    margin-top: 60px;
+    max-width: 1022px;
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+
+    font-family: "Montserrat", sans-serif;
 }
 
 .imageContainer {
+
 }
 
 .image {
 }
 
 .textContainer{
+    display: flex;
+    max-width: 510px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .code {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 12px;
 }
 
 .text {
+    font-weight: 500;
+    font-size: 16px;
 }
 .info {
+    font-weight: 500;
+    font-size: 16px;
 }
