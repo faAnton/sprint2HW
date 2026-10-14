@@ -92,9 +92,15 @@ const HW15 = () => {
 
     useEffect(() => {
         const params = Object.fromEntries(searchParams)
-        sendQuery({page: params.page, count: params.count})
-        setPage(+params.page || 1)
-        setCount(+params.count || 4)
+        const page = Number(params.page) || 1
+        const count = Number(params.count) || 4
+        const sort = params.sort || ''
+
+        setPage(page)
+        setCount(count)
+        setSort(sort)
+
+        sendQuery({ page, count, sort })
     }, [])
 
     const mappedTechs = techs.map(t => (
